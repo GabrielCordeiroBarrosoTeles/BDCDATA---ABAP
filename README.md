@@ -5,7 +5,7 @@ A estrutura BDCDATA é utilizada no SAP (Sistemas, Aplicações e Produtos) para
 Vamos percorrer a estrutura e seus campos com exemplos e comentários em uma representação de pseudo-código:
 
 ```ABAP
-TYPES: BEGIN OF BDCDATA,
+TYPES: BEGIN OF BDCDATA,                 "Criando uma estrutura chamada BDCDATA
          PROGRAM TYPE PROGRAM,
          DYNPRO TYPE DYNPRO,
          DYNBEGIN TYPE CHAR1,
